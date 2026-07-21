@@ -18,7 +18,7 @@ st.set_page_config(
 # Sidebar
 # ---------------------------
 st.sidebar.title("🛡️ SentinelAI")
-st.sidebar.markdown("### AI-Powered Public Safety")
+st.sidebar.markdown("### AI-Powered Public Safety & Fraud Prevention")
 
 st.sidebar.success("Choose a module from the Pages menu.")
 
@@ -26,12 +26,13 @@ st.sidebar.success("Choose a module from the Pages menu.")
 # Home Page
 # ---------------------------
 st.title("🛡️ SentinelAI")
-st.subheader("AI for Public Safety & Scam Prevention")
+st.subheader("AI-Powered Public Safety, Scam & Financial Fraud Prevention")
 
 st.markdown("---")
 
 st.markdown("""
-Welcome to **SentinelAI**, an AI-powered platform designed to detect and prevent digital fraud.
+Welcome to **SentinelAI**, an AI-powered platform designed to detect,
+analyze, and prevent digital scams and financial fraud.
 
 ### Available Modules
 
@@ -48,6 +49,20 @@ Welcome to **SentinelAI**, an AI-powered platform designed to detect and prevent
 - AI-powered fraud analysis
 - Scam explanation
 
+📊 **Fraud Dashboard**
+- Monitor fraud trends
+- View fraud statistics
+- Analyze transaction patterns
+- Visualize fraud distribution
+- Track suspicious transactions
+
+🕸️ **Fraud Network**
+- Visualize connections between suspicious entities
+- Analyze connected phone numbers
+- Track UPI ID relationships
+- Identify potential fraud networks
+- Explore suspicious transaction connections
+
 ---
 
 ### Team Modules
@@ -56,7 +71,11 @@ Welcome to **SentinelAI**, an AI-powered platform designed to detect and prevent
 
 ✅ Voice Scam Analysis
 
-More AI modules can be added in future.
+✅ Financial Fraud Dashboard
+
+✅ Fraud Network Analysis
+
+More AI-powered safety modules can be added in future.
 """)
 
 st.info("👈 Select a module from the Pages section in the sidebar.")

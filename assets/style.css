@@ -1,0 +1,260 @@
+/* =====================================
+   SENTINEL AI - CYBERSECURITY THEME
+====================================== */
+
+:root{
+    --primary:#7CFC00;
+    --secondary:#22c55e;
+    --bg:#07111f;
+    --card:#111827;
+    --border:#243041;
+    --text:#ffffff;
+    --muted:#bfc7d5;
+}
+
+/* Hide Streamlit Header */
+
+header{
+    visibility:hidden;
+}
+
+#MainMenu{
+    visibility:hidden;
+}
+
+footer{
+    visibility:hidden;
+}
+
+/* Main Background */
+
+.stApp{
+    background:linear-gradient(
+        180deg,
+        #061321 0%,
+        #08192b 100%
+    );
+}
+
+/* Page Width */
+
+.block-container{
+    padding-top:2rem;
+    padding-left:4rem;
+    padding-right:4rem;
+    padding-bottom:2rem;
+}
+
+/* Sidebar */
+
+section[data-testid="stSidebar"]{
+
+    background:#08111f;
+
+    border-right:1px solid #1f2937;
+
+}
+
+section[data-testid="stSidebar"] *{
+
+    color:white;
+
+}
+
+/* Logo */
+
+img{
+
+    border-radius:12px;
+
+}
+
+/* Headings */
+
+h1{
+
+    color:white !important;
+
+    font-weight:800 !important;
+
+}
+
+h2{
+
+    color:white !important;
+
+    font-weight:700 !important;
+
+}
+
+h3{
+
+    color:white !important;
+
+}
+
+h4{
+
+    color:#d7d7d7 !important;
+
+}
+
+/* Paragraph */
+
+p{
+
+    color:#c6cbd3;
+
+}
+
+/* Metric Cards */
+
+[data-testid="metric-container"]{
+
+    background:#111827;
+
+    border:1px solid #243041;
+
+    border-radius:18px;
+
+    padding:20px;
+
+    transition:.3s;
+
+}
+
+[data-testid="metric-container"]:hover{
+
+    border-color:#7CFC00;
+
+    transform:translateY(-6px);
+
+    box-shadow:0 0 20px rgba(124,252,0,.20);
+
+}
+
+/* Containers */
+
+div[data-testid="stVerticalBlock"] div:has(> div[data-testid="stMarkdownContainer"]){
+
+    border-radius:18px;
+
+}
+
+/* Info Cards */
+
+div[data-testid="stVerticalBlockBorderWrapper"]{
+
+    border-radius:18px;
+
+}
+
+/* Buttons */
+
+.stButton>button{
+
+    width:100%;
+
+    background:#7CFC00;
+
+    color:black;
+
+    font-weight:700;
+
+    border:none;
+
+    border-radius:12px;
+
+    padding:12px;
+
+    transition:.3s;
+
+}
+
+.stButton>button:hover{
+
+    background:white;
+
+    color:black;
+
+    transform:translateY(-3px);
+
+}
+
+/* Success */
+
+div[data-baseweb="notification"]{
+
+    border-radius:14px;
+
+}
+
+/* Horizontal Line */
+
+hr{
+
+    border:0;
+
+    border-top:1px solid #243041;
+
+}
+
+/* Module Cards */
+
+div[data-testid="stVerticalBlockBorderWrapper"]{
+
+    background:#111827;
+
+    border:1px solid #243041;
+
+    transition:.35s;
+
+}
+
+div[data-testid="stVerticalBlockBorderWrapper"]:hover{
+
+    border:1px solid #7CFC00;
+
+    transform:translateY(-8px);
+
+    box-shadow:0 0 25px rgba(124,252,0,.18);
+
+}
+
+/* Sidebar Buttons */
+
+button[kind="secondary"]{
+
+    border-radius:10px;
+
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar{
+
+    width:10px;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+    background:#7CFC00;
+
+    border-radius:10px;
+
+}
+
+::-webkit-scrollbar-track{
+
+    background:#08111f;
+
+}
+
+/* Smooth Animation */
+
+*{
+
+    transition:.2s;
+
+}
